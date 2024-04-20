@@ -50,4 +50,10 @@ El sistema se basa en un microcontrolador que se conecta a una aplicación de co
 ## Prestaciones de Software
 
 El software del robot gestiona la navegación utilizando datos de la cámara para ubicarse y calcular rutas hacia los objetivos. Además, maneja cambios en el entorno y la interacción con el usuario a través de un botón pulsador.
----
+
+## Librerias y requisitos
+
+El software debera tener compatibilidad con todos los sensores y hacer uso de distintos recursos para comunicarse con los sistemas y calcular caminos:
+* #include "esp_camera.h"
+* #include <WiFi.h>
+* #include <ESPAsyncWebServer.h>
